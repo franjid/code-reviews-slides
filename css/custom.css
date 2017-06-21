@@ -1,0 +1,16 @@
+ul.list {
+  margin: 0 0 0 2em;
+}
+
+ul.list li {
+  font-size: 0.8em;
+  margin-bottom: 0.4em;
+}
+
+img#peer-code-review {
+  max-height: 400px;
+}
+
+img#code-review-flow-2 {
+  max-height: 500px;
+}
