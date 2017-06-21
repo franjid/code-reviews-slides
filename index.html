@@ -32,16 +32,16 @@
         <section>
             <h1>Why Code Reviews</h1>
             <ul class="list">
-                <li class="fragment">To find potential bugs as soon as possible</li>
-                <li class="fragment">It helps to maintain a level of consistency in design and implementation across the
+                <li>To find potential bugs as soon as possible</li>
+                <li>It helps to maintain a level of consistency in design and implementation across the
                     team
                 </li>
-                <li class="fragment">You can learn dark magic tricks from your teammates</li>
-                <li class="fragment">To share the code base knowledge (and decrease the bus factor)</li>
-                <li class="fragment">Improves code quality. Coder tries harder in search for better solutions and more
+                <li>You can learn dark magic tricks from your teammates</li>
+                <li>To share the code base knowledge (and decrease the bus factor)</li>
+                <li>Improves code quality. Coder tries harder in search for better solutions and more
                     elegant code
                 </li>
-                <li class="fragment">Team cohesiveness. Team members work together</li>
+                <li>Team cohesiveness. Team members work together</li>
             </ul>
         </section>
 
@@ -55,87 +55,83 @@
             <h1>As a Developer</h1>
             <small><em>Don't become the ninja-rockstar programmer no one wants to work with</em></small>
             <ul class="list">
-                <li class="fragment">Review you own code before creating a pull request</li>
-                <li class="fragment">Use a tool to check for code style errors</li>
-                <li class="fragment">You will make mistakes. Understand and accept it with humility</li>
-                <li class="fragment">You can always learn from other people</li>
-                <li class="fragment">Leave your ego behind and don't take it personal. You are not your code</li>
+                <li>Review you own code before creating a pull request</li>
+                <li>Use a tool to check for code style errors</li>
+                <li>You will make mistakes. Understand and accept it with humility</li>
+                <li>You can always learn from other people</li>
+                <li>Leave your ego behind and don't take it personal. You are not your code</li>
             </ul>
         </section>
 
         <section>
-            <section>
-                <h1>As a Reviewer</h1>
-                <small><em>Is not about pointing at people saying "this is shit"</em></small>
-                <ul class="list">
-                    <li class="fragment">Be positive</li>
-                    <li class="fragment">Be the "fool" in the room</li>
-                    <li class="fragment">If you find something that it's really well done or that made you learn
-                        something, let the developer know!
-                    </li>
-                    <li class="fragment">Don't be too serious. Try to introduce some joke if possible</li>
-                    <li class="fragment">Never replace code from the developer without consulting first</li>
-                </ul>
-            </section>
-
-            <section>
-                <img id="" src="img/respect.jpg">
-            </section>
+            <h1>As a Reviewer</h1>
+            <small><em>Is not about pointing at people saying "this is shit"</em></small>
+            <ul class="list">
+                <li>Be positive</li>
+                <li>Be the "fool" in the room</li>
+                <li>If you find something that it's really well done or that made you learn
+                    something, let the developer know!
+                </li>
+                <li>Don't be too serious. Try to introduce some joke if possible</li>
+                <li>Never replace code from the developer without consulting first</li>
+            </ul>
         </section>
 
         <section>
-            <section>
-                <h2>Where to focus</h2>
-
-                <h6>Low priority</h6>
-
-                <ul class="list">
-                    <li>Coding style</li>
-                    <li>Naming Conventions</li>
-                </ul>
-            </section>
-            <section>
-                <h2>Where to focus</h2>
-
-                <h6>Medium priority</h6>
-
-                <ul class="list">
-                    <li>Reusability</li>
-                    <li>Redundant code</li>
-                    <li>Simplicity</li>
-                    <li>Performance</li>
-                </ul>
-            </section>
-            <section>
-                <h2>Where to focus</h2>
-
-                <h6>High priority</h6>
-
-                <ul class="list">
-                    <li>Tests have been created for new code</li>
-                    <li>Error handling</li>
-                    <li>Security issues</li>
-                    <li>Funcionality</li>
-                    <li>Maintainability</li>
-                </ul>
-            </section>
+            <img id="" src="img/respect.jpg">
         </section>
 
         <section>
-            <section>
-                <h2>Flow in small teams</h2>
+            <h2>Where to focus</h2>
 
-                <small><em>Two developers</em></small><br>
+            <h6>Low priority</h6>
 
-                <img src="img/code_reviews_flow_1.png">
-            </section>
-            <section>
-                <h2>Flow in big teams</h2>
+            <ul class="list">
+                <li>Coding style</li>
+                <li>Naming Conventions</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Where to focus</h2>
 
-                <small><em>With three or more developers</em></small><br>
+            <h6>Medium priority</h6>
 
-                <img id="code-review-flow-2" src="img/code_reviews_flow_2.png">
-            </section>
+            <ul class="list">
+                <li>Reusability</li>
+                <li>Redundant code</li>
+                <li>Simplicity</li>
+                <li>Performance</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Where to focus</h2>
+
+            <h6>High priority</h6>
+
+            <ul class="list">
+                <li>Tests have been created for new code</li>
+                <li>Error handling</li>
+                <li>Security issues</li>
+                <li>Funcionality</li>
+                <li>Maintainability</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Flow in small teams</h2>
+
+            <small><em>Two developers</em></small>
+            <br>
+
+            <img src="img/code_reviews_flow_1.png">
+        </section>
+        <section>
+            <h2>Flow in big teams</h2>
+
+            <small><em>With three or more developers</em></small>
+            <br>
+
+            <img id="code-review-flow-2" src="img/code_reviews_flow_2.png">
         </section>
 
         <section>
@@ -166,7 +162,9 @@
                 hljs.initHighlightingOnLoad();
             }
             }
-        ]
+        ],
+        controls: false,
+        progress: false
     });
 </script>
 </body>
